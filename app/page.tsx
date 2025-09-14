@@ -35,7 +35,10 @@ export default function Page() {
               <a href="#demo">Try demo</a>
             </Button>
             <Button asChild>
-              <a href="#showcase">Get started</a>
+              <Link href="/register">Get started</Link>
+            </Button>
+            <Button asChild variant="ghost" size="sm">
+              <Link href="/admin">Admin</Link>
             </Button>
           </div>
         </div>
@@ -66,6 +69,9 @@ export default function Page() {
             <a className="text-sm text-muted-foreground hover:text-foreground transition-colors" href="#">
               Contact
             </a>
+            <Link className="text-sm text-muted-foreground hover:text-foreground transition-colors" href="/admin">
+              Admin Dashboard
+            </Link>
           </div>
         </div>
       </footer>

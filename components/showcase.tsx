@@ -4,9 +4,9 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 
 const items = [
-  { title: "Night driving", src: "/night-driving-city-lights-with-lane-lines.png" },
-  { title: "Rain & glare", src: "/rainy-road-with-glare-on-windshield-lanes.png" },
-  { title: "Construction", src: "/highway-construction-zone-temporary-lanes.png" },
+  { title: "Night driving", src: "/indian-city-road-night-traffic.jpg" },
+  { title: "Rain & glare", src: "/indian-highway-monsoon-rain-lanes.jpg" },
+  { title: "Daylight", src: "/indian-highway-daylight-clear-weather.jpg" },
 ]
 
 export function Showcase() {

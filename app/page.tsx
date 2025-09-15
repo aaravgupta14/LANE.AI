@@ -4,7 +4,6 @@ import Link from "next/link"
 import { Hero } from "@/components/hero"
 import { Features } from "@/components/features"
 import { HowItWorks } from "@/components/how-it-works"
-import { LiveDemo } from "@/components/live-demo"
 import { Showcase } from "@/components/showcase"
 // import { CTA } from "@/components/cta"
 
@@ -23,17 +22,11 @@ export default function Page() {
             <a href="#how" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               How it works
             </a>
-            <a href="#demo" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              Live demo
-            </a>
             <a href="#showcase" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Showcase
             </a>
           </nav>
           <div className="flex items-center gap-3">
-            <Button asChild variant="outline">
-              <a href="#demo">Try demo</a>
-            </Button>
             <Button asChild>
               <Link href="/register">Get started</Link>
             </Button>
@@ -49,8 +42,6 @@ export default function Page() {
       <Features />
 
       <HowItWorks />
-
-      <LiveDemo />
 
       <Showcase />
 

@@ -35,10 +35,7 @@ export function Hero() {
               transition={{ duration: 0.6, delay: 0.2, ease: "easeOut" }}
             >
               <Button asChild>
-                <Link href="#cta">Start free</Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link href="#demo">Watch demo</Link>
+                <Link href="/register">Start free</Link>
               </Button>
             </motion.div>
             <motion.ul
@@ -66,8 +63,10 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.15, ease: "easeOut" }}
           >
             <Image
-              src={"/placeholder.svg?height=640&width=960&query=highway%20dashcam%20frame%20with%20lane%20lines"}
-              alt="Highway driving frame with lane lines"
+              src={
+                "/placeholder.svg?height=640&width=960&query=Indian%20highway%20dashcam%20view%20with%20clear%20lane%20markings%20and%20traffic"
+              }
+              alt="Indian highway dashcam view with lane detection"
               width={960}
               height={640}
               className="w-full h-auto"
